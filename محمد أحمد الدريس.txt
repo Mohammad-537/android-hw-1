@@ -1,0 +1,24 @@
+double student = 90.0;
+grades(80.0);
+grades(student);
+ grades(70.0);
+ grades(student);
+ grades(60.0);
+ grades(student);
+    grades(15.0);         
+    grades(student);   
+     
+ }
+    public static void grades(double student){
+    if (student  >=90.0){
+     System.out.println("A");
+     }else if (student >= 80.0){
+     System.out.println("B");
+     }else if (student >= 70.0){
+    System.out.println("C");
+   }else if (student >=60.0){
+    System.out.println("D");
+    }else{
+    System.out.println("F");}
+     }
+}
